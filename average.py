@@ -7,8 +7,6 @@ def average_program():
     print("\nEnter Grade Level: \n")
     grade_level = int(input())
 
-    print("\n!!!Follow the Prompt!!!")
-
     print("\nEnter Math Average: \n")
     math_input = float(input())
 
@@ -47,7 +45,7 @@ def average_program():
     print("\nAverage Grade = \n" + str(final_average))
     print("\n Done!\n")
 
-    write_grade = open(r"C:\Users\Amazing\Documents\Notepad files\Average Grade.txt", "a")
+    write_grade = open("Average Grade.txt", "a")
 
     write_grade.write("\nName: ")
     write_grade.write(str(name))
